@@ -13,3 +13,7 @@ lean_lib «semioverse» where
 @[default_target]
 lean_lib «Gap» where
   -- Gap.lean imports semioverse, so `lake build` checks both
+
+@[default_target]
+lean_lib «Alignment» where
+  -- Alignment.lean: the residual ledger; built so its open sorries stay type-checked
