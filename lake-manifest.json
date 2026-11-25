@@ -1,0 +1,16 @@
+{"version": "1.3.0",
+ "packagesDir": ".lake/packages",
+ "packages":
+ [{"url": "https://github.com/leanprover-community/proofwidgets4.git",
+   "type": "git",
+   "subDir": null,
+   "scope": "",
+   "rev": "197b8bdfd8bbfea6dff6ac04170a710b231c3aaa",
+   "name": "proofwidgets",
+   "manifestFile": "lake-manifest.json",
+   "inputRev": "main",
+   "inherited": false,
+   "configFile": "lakefile.lean"}],
+ "name": "semioverse",
+ "lakeDir": ".lake",
+ "fixedToolchain": false}
