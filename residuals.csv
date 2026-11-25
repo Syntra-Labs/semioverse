@@ -1,0 +1,14 @@
+id,status,file,theorem,description,blocked_by
+R-1,COMPILE,semioverse.lean,,Four split/omega tactic failures in stepTowardState proofs,
+R-2,OPEN,semioverse.lean,stepTrace_eventually_stable,Convergence of reconciliation trace,R-1
+R-3,OPEN,semioverse.lean,isSatisfiable_iff_Satisfiable,Hypergraph resolver semantic soundness,R-1
+R-4,OPEN,semioverse.lean,Patch.compose,Patch composition closure,R-1
+R-5,OPEN,semioverse.lean,patch_commutation_disjoint,Nontrivial patch commutation,R-4
+R-6,OPEN,semioverse.lean,stateActualLens,Substantive lens instance,R-1
+R-7,OPEN,semioverse.lean,runBuild_minimal,Real build DAG minimality,R-1
+R-8,OPEN,semioverse.lean,Pi_UI_homomorphism,UI monoid homomorphism,R-1
+R-9,OPEN,semioverse.lean,O_preserves_diagnostic,Telemetry metric preservation,R-1
+R-A1,OPEN,Alignment.lean,residual_dag_acyclic,DAG acyclicity at meta level,R-7
+R-A2,OPEN,Alignment.lean,entry_conditions,Entry conditions at meta level,R-7
+R-A3,OPEN,Alignment.lean,reaches_closure,Closure reachability,R-2
+R-A4,OPEN,Alignment.lean,self_reference_closes,Self-reference theorem,R-2;R-A1;R-A2;R-A3
